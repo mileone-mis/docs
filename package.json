@@ -1,0 +1,17 @@
+{
+  "name": "mis-documentation",
+  "version": "1.0.0",
+  "description": "Documentation for MIS Department",
+  "main": "index.js",
+  "repository": "https://github.com/mileone-mis/docs.git",
+  "author": "Ivan Goncharuk <ivangoncharuk.biz@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
